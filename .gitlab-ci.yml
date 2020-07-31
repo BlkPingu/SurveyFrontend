@@ -8,4 +8,4 @@ pages: # the job must be named pages
     - yarn
     - yarn run build
     - ls
-    - cp -R dist/ /srv/tobiaskolb.dev/
+    - cp -R ./dist/* /srv/tobiaskolb.dev/
