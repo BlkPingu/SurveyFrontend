@@ -7,4 +7,5 @@ pages: # the job must be named pages
     - yarn add webpack-cli
     - yarn
     - yarn run build
-    - cp -R ./dist/* /srv/tobiaskolb.dev/
+    - ls
+    - cp -R dist/ /srv/tobiaskolb.dev/
