@@ -4,7 +4,7 @@ pages: # the job must be named pages
   script:
     - pwd
     - rm -rf /srv/tobiaskolb.dev/*
-    - cd
+    - cd surveyfrontend/
     - npm run build
     - cp -R ./dist/* /srv/tobiaskolb.dev/
   only:
