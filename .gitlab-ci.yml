@@ -2,8 +2,9 @@ pages: # the job must be named pages
   image: node:latest
   stage: deploy
   script:
+    - pwd
     - rm -rf /srv/tobiaskolb.dev/*
-    - npm ci
+    - cd
     - npm run build
     - cp -R ./dist/* /srv/tobiaskolb.dev/
   only:
