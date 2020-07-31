@@ -5,6 +5,7 @@ pages: # the job must be named pages
     - pwd
     - rm -rf /srv/tobiaskolb.dev/*
     - cd surveyfrontend/
+    - npm install
     - npm run build
     - cp -R ./dist/* /srv/tobiaskolb.dev/
   only:
