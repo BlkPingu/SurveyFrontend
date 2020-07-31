@@ -14,7 +14,7 @@ const isProd                   = process.env.NODE_ENV === 'production';
 const webpackConfig = merge(commonConfig, {
     mode: 'production',
     output: {
-        path: path.resolve('../../dist_frontend'),
+        path: path.resolve('dist'),
         publicPath: '/',
         filename: 'js/[hash].js',
         chunkFilename: 'js/[name].[hash].chunk.js'
