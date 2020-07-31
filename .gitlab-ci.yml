@@ -5,8 +5,8 @@ pages: # the job must be named pages
     - pwd
     - rm -rf /srv/tobiaskolb.dev/*
     - yarn add webpack-cli
-    - npm install
-    - npm run build
+    - yarn
+    - yarn run build
     - cp -R ./dist/* /srv/tobiaskolb.dev/
   only:
     - master
