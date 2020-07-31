@@ -8,5 +8,3 @@ pages: # the job must be named pages
     - yarn
     - yarn run build
     - cp -R ./dist/* /srv/tobiaskolb.dev/
-  only:
-    - master
