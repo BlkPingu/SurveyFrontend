@@ -16,7 +16,7 @@ export default {
 				headers,
 				body: JSON.stringify(data),
 			})
-			console.log(${apiURL}/${endpoint})
+			console.log(apiURL + '/' + endpoint)
 			console.log(res)
 			if (res.status > 299) return res.status
 			const resParse = await res.json()
