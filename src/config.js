@@ -1,7 +1,7 @@
 module.exports = {
 	title: 'Curious Cat Inc.',
 	logo: require('./img/logo.svg'),
-	apiURL: 'http://0.0.0.0:9000',
+	apiURL: 'https://backend.tobiaskolb.dev:443',
 	tokenLocalStorageName: 'miceAreATokenOfAppreciation',
 	individualApiEndpoints: false,
 	startRecordingText: 'Start Recording',

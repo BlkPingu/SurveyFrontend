@@ -32,11 +32,16 @@ export default {
 		let headers = {}
 		if (getToken() != null) headers['Authorization'] = 'Bearer ' + getToken()
 		try {
-			const res = await fetch(`${apiURL}/${endpoint}`, {
+
+			const request = {
 				headers,
 				method: 'POST',
 				body: formData,
-			})
+			}
+
+			const res = await fetch(`${apiURL}/${endpoint}`, request)
+			console.log(request)
+			console.log()
 			return res
 		} catch (error) {
 			alert('There was an issue uploading your file')
