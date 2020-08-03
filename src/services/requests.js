@@ -14,6 +14,8 @@ export default {
 				headers,
 				body: JSON.stringify(data),
 			})
+
+			console.log(res)
 			if (res.status > 299) return res.status
 			const resParse = await res.json()
 			return resParse
