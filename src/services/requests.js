@@ -4,6 +4,8 @@ import { getToken } from '@/js/tokenHandler'
 export default {
 	// sends a request with the given data and method to the API
 	async jsonRequest(endpoint, data, method) {
+
+		console.log(data)
 		let headers = {
 			'Content-Type': 'application/json',
 		}
@@ -14,7 +16,7 @@ export default {
 				headers,
 				body: JSON.stringify(data),
 			})
-
+			console.log(${apiURL}/${endpoint})
 			console.log(res)
 			if (res.status > 299) return res.status
 			const resParse = await res.json()
