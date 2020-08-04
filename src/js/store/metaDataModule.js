@@ -38,7 +38,7 @@ export default {
 				if (res.token) {
 					setToken(res.token)
 					return
-				} else if (typeof res === Number) {
+				} else if (res.status > 299) {
 					throw new Error(
 						'Your request was rejected with the code ' + res
 					)

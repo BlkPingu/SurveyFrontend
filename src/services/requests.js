@@ -5,7 +5,6 @@ export default {
 	// sends a request with the given data and method to the API
 	async jsonRequest(endpoint, data, method) {
 
-		console.log(data)
 		let headers = {
 			'Content-Type': 'application/json',
 		}
@@ -16,9 +15,6 @@ export default {
 				headers,
 				body: JSON.stringify(data),
 			})
-			console.log(apiURL + '/' + endpoint)
-			console.log(res)
-			if (res.status > 299) return res.status
 			const resParse = await res.json()
 			return resParse
 		} catch (error) {
@@ -44,8 +40,6 @@ export default {
 			}
 
 			const res = await fetch(`${apiURL}/${endpoint}`, request)
-			console.log(request)
-			console.log()
 			return res
 		} catch (error) {
 			alert('There was an issue uploading your file')
