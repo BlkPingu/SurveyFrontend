@@ -12,6 +12,7 @@ export default {
 		try {
 			const res = await fetch(`${apiURL}/${endpoint}`, {
 				method,
+				mode:'cors',
 				headers,
 				body: JSON.stringify(data),
 			})
@@ -35,6 +36,7 @@ export default {
 
 			const request = {
 				headers,
+				mode:'cors',
 				method: 'POST',
 				body: formData,
 			}
