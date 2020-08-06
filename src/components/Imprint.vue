@@ -14,9 +14,7 @@
 
         <h4>Kontakt:</h4>
         <p>
-            Telefon: <a href='tel:+491788863802'>(+49)-0178 886 38 02</a>
-            <br>
-            E-Mail: <a href='mailto:contact@tobiaskolb.dev'>contact@tobiaskolb.dev</a>
+            E-Mail: <a href='mailto:survey@tobiaskolb.dev'>survey@tobiaskolb.dev</a>
         </p>
         <h3>Haftungsausschluss: </h3>
 
