@@ -60,7 +60,6 @@ export default {
 			)
 		},
 		async startRecording() {
-			console.log(this.$_stream)
 			if (this.isRecording) return
 			try {
 				if (this.$_recorder == null) {

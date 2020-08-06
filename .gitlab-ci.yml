@@ -1,12 +1,6 @@
 sequential:
     script:
-      - pwd
-      - ls /srv/tobiaskolb.dev
       - rm -rf /srv/tobiaskolb.dev/*
-      - ls /srv/tobiaskolb.dev
-      - yarn add webpack-cli
       - yarn
       - yarn run build
-      - ls
-      - ls /srv/tobiaskolb.dev
       - cp -R ./dist/* /srv/tobiaskolb.dev/
