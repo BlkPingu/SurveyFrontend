@@ -61,6 +61,7 @@ export default {
 		},
 		async startRecording() {
 			console.log(this.$_stream)
+			this.$_stream.getTracks().forEach((track) => track.start())
 			if (this.isRecording) return
 			try {
 				if (this.$_recorder == null) {
@@ -76,7 +77,7 @@ export default {
 		stopRecording() {
 			if (!this.isRecording) return
 			this.$_recorder.stop()
-			// this.$_stream.getTracks().forEach((track) => track.stop())
+			this.$_stream.getTracks().forEach((track) => track.stop())
 		},
 	},
 
