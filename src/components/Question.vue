@@ -26,6 +26,16 @@ import questions from '@/questions.json'
 import Recorder from '@/components/Recorder'
 import { nextPageText, finishText } from '@/config.js'
 
+function shuffle(a) {
+    for (let i = a.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [a[i], a[j]] = [a[j], a[i]];
+    }
+    return a;
+}
+
+let questions_shuffled = shuffle(questions)
+
 export default {
 	name: 'Question',
 	// index is starts at 1 as it is the visual indicator,
@@ -34,21 +44,21 @@ export default {
 	components: { Recorder },
 	data() {
 		return {
-			questions,
+			questions: questions_shuffled,
 		}
 	},
 	computed: {
 		nextPage() {
-			return this.index < questions.length
+			return this.index < questions_shuffled.length
 				? '/question/' + (parseInt(this.index) + 1)
 				: '/thanks'
 		},
 		buttonText() {
-			return this.index < questions.length ? nextPageText : finishText
+			return this.index < questions_shuffled.length ? nextPageText : finishText
 		},
 		// disable navigation to next page if there is no audio recording
 		blockProceed() {
-			if (questions[this.index - 1].required) {
+			if (questions_shuffled[this.index - 1].required) {
 				return (
 					this.$store.getters.getQuestionById(this.id).recordURL ==
 					null
@@ -58,7 +68,7 @@ export default {
 		},
 		// id of the current question
 		id() {
-			return questions[this.index - 1].id
+			return questions_shuffled[this.index - 1].id
 		},
 	},
 }

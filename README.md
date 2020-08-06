@@ -5,6 +5,10 @@ Audio-only surveys.
 
 Utilizes JWT based on Session-IDs as a rather basic security mechanism and prevents duplicate users.
 
+## Questions
+
+The location of the questions is `/src/questions.json`.
+
 ## How to get started
 
 1. Clone Repo
@@ -20,6 +24,7 @@ Additional configurations for a route can be made in the according Vue-Component
 Currently the server only has 2 routes `/meta` and `/audio`.
 
 `/meta` accepts `PUT`-Requests with a `JSON` body with the default shape of
+
 ```
 {
 	firstName: String
