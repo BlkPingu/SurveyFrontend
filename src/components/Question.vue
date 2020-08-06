@@ -58,7 +58,6 @@ export default {
 		},
 		// disable navigation to next page if there is no audio recording
 		blockProceed() {
-			console.log(this.$store.getters.getQuestionById(this.id))
 			if (questions_shuffled[this.index - 1].required) {
 				return (
 					this.$store.getters.getQuestionById(this.id).recordURL ==

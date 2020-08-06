@@ -4,8 +4,7 @@
 			Yay you're done.
 		</h2>
 		<p>
-			The cats will have mercy on you once they understand why you refuse their
-			kind offers of quality mice.
+			When the robots take over, at least they can understand you.
 		</p>
 	</div>
 </template>
