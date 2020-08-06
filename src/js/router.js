@@ -4,6 +4,8 @@ import Home from '@/components/Home'
 import Privacy from '@/components/Privacy'
 import Question from '@/components/Question'
 import Thanks from '@/components/Thanks'
+import Imprint from '@/components/Imprint'
+import PrivacyNotice from '@/components/PrivacyNotice'
 import Hint from '@/components/MicrophoneHint'
 import Metadata from '@/components/Metadata'
 import FourOhFour from '@/components/404'
@@ -20,6 +22,8 @@ const router = new VueRouter({
 		{ path: '/microphone', component: Hint },
 		{ path: '/question/:index', component: Question, props: true },
 		{ path: '/thanks', component: Thanks },
+		{ path: '/imprint', component: Imprint },
+		{ path: '/privacy-notice', component: PrivacyNotice },
 		{ path: '/404', component: FourOhFour },
 		{
 			path: '*',

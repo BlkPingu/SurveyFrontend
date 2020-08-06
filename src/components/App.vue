@@ -1,11 +1,6 @@
 <template>
 	<div id="app">
 		<header class="wrapper site-header">
-			<router-link to="/">
-				<div class="logo">
-					<img :src="logo.default" alt="" />
-				</div>
-			</router-link>
 			<div class="title">
 				<router-link to="/">
 					<h1 v-if="title">{{ title }}</h1>
@@ -13,9 +8,13 @@
 				<h2 v-if="subtitle">{{ subtitle }}</h2>
 			</div>
 		</header>
-		<article class="wrapper">
+		<article class="wrapper article-content">
 			<router-view></router-view>
 		</article>
+		<footer class="footer">
+			<router-link to="/privacy-notice">Privacy Notice</router-link>
+			<router-link to="/imprint">Imprint</router-link>
+		</footer>
 	</div>
 </template>
 
@@ -46,6 +45,8 @@ export default {
 
 body {
 	background: $background-color;
+	margin: 0;
+	padding: 0;
 	line-height: 1.8;
 	font-size: 1rem;
 	color: $text-color;
@@ -58,32 +59,22 @@ body {
 
 .wrapper {
 	width: 100%;
-	max-width: 36rem;
+	max-width: 45rem;
 	padding: 2rem;
 	margin: 0 auto;
 }
 
-.site-header {
-	display: grid;
-	grid-template-columns: 1fr 3fr;
-	grid-template-areas: 'logo title title';
-	grid-gap: 1rem;
-	align-items: center;
+.article-content {
+	margin-bottom: 5rem;
+}
 
+.site-header {
 	a {
 		text-decoration: none;
 	}
 }
 
-.logo {
-	grid-area: 'logo';
-	img {
-		max-height: 100px;
-	}
-}
-
 .title {
-	grid-area: 'title';
 	display: inline-block;
 
 	h1,
@@ -103,6 +94,9 @@ body {
 }
 
 article {
+	margin-bottom: 200px;
+	display: block;
+
 	h1,
 	h2,
 	h3,
@@ -140,4 +134,20 @@ input[type="submit"] {
 		color: #bbb;
 	}
 }
+
+footer {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+	padding: 1rem;
+	background-color: $primary-color;
+
+	a {
+		margin: 0 20px;
+		color: $background-color;
+		text-decoration: none;
+	}
+}
+
 </style>
