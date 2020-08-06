@@ -5,7 +5,7 @@ import App from '@/components/App'
 import AudioRecorder from 'audio-recorder-polyfill'
 
 // Add MediaRecorder polyfill
-window.MediaRecorder = AudioRecorder
+if (!window.MediaRecorder) window.MediaRecorder = AudioRecorder
 
 const app = new Vue({
 	router,

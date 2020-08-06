@@ -68,7 +68,7 @@ const webpackConfig = {
 		new VueLoaderPlugin(),
 		new HtmlPlugin({
 			template: 'src/index.html',
-			favicon: 'src/img/logo.svg',
+			//favicon: 'src/img/logo.svg',
 		}),
 	],
 }
