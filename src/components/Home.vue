@@ -2,7 +2,7 @@
 	<div class="intro">
 		<h1>Welcome and thank you</h1>
 		<p>{{ instructions }}</p>
-		<router-link to='/privacy'>
+		<router-link to='/cookie'>
 			<button>
 				{{ nextPageText }}
 			</button>

@@ -9,45 +9,32 @@
 		- errorMessage: Text displayed below field if validation fails
 */
 
-function validateName(x) {
-	return /^[A-Z][a-z]{1,}(((\s|-)[A-Za-z-]+)+)?$/.test(x)
-}
-
 module.exports = [
 	{
-		id: 'firstName',
-		name: 'First Name',
-		type: 'text',
+		id: 'gender',
+		name: 'Geschlecht',
+		type: 'radio',
+		options: ['weiblich','männlich', 'divers'],
 		required: true,
-		validator: validateName,
-		errorMessage: 'First Name does not match criteria.',
+		errorMessage: 'Bitte ein Geschlecht auswählen',
+		description: 'Totally intutive reason why I need this'
 	},
 	{
-		id: 'lastName',
-		name: 'Last Name',
-		type: 'text',
+		id: 'age',
+		name: 'Alter',
+		type: 'select',
+		options: ['18-21', '22-27', '28-33'],
 		required: true,
-		validator: validateName,
-		errorMessage: 'Last Name does not match criteria.',
-	},
-	{
-		id: 'dateOfBirth',
-		name: 'Date of birth',
-		type: 'date',
-		required: true,
-		validator: (x) => {
-			let value = new Date(x)
-			let now = new Date()
-			return now - value >= 5.676e+11 && now - value <= 3.154e+12
-		},
-		errorMessage: 'Age does not match criteria.',
+		errorMessage: 'Bitte eine Altersspanne auswählen',
+		description: 'Totally intutive reason why I need this'
 	},
 	{
 		id: 'nativeLanguage',
 		name: 'Native Language',
-		type: 'text',
+		type: 'select',
 		required: true,
-		validator: (x) => /[a-zA-Z]{2,}/.test(x),
-		errorMessage: 'Native Language does not match criteria.',
+		options: ['Foo', 'Bar', 'Bazz'],
+		errorMessage: 'Bitte eine Muttersprache auswählen.',
+		description: 'Totally intutive reason why I need this'
 	},
 ]

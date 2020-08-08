@@ -1,7 +1,6 @@
 module.exports = {
 	title: 'Voice Survey',
 	apiURL: 'https://backend.tobiaskolb.dev',
-	//apiURL: 'http://127.0.0.1:5000/',
 	tokenLocalStorageName: 'aTokenOfLove',
 	individualApiEndpoints: false,
 	startRecordingText: 'Start Recording',
@@ -13,7 +12,10 @@ module.exports = {
 	subtitle: 'a survey to validate and test voice command systems',
 	instructions: require('./assets/instructions'),
 	privacyPolicy: require('./assets/privacyPolicy'),
+	cookiePolicy: require('./assets/cookiePolicy'),
+	microphoneHint: require('./assets/microphoneHint'),
 	privacyAcknowledgement: 'I fully understand Privacy Policy above and acknowledge it.',
+	cookieAcknowledgement: 'I fully understand the cookie notice above and acknowledge it.',
 	metaData: require('./assets/metaData'),
 	maxTakeLength: 5000,
 	/*

@@ -34,15 +34,22 @@ const store = new Vuex.Store({
 	],
 	state: {
 		privacyPolicyAccepted: false,
+		cookiePolicyAccepted: false,
 	},
 	mutations: {
 		setPrivacyAcknowledgement(state, accepted) {
 			state.privacyPolicyAccepted = accepted
 		},
+		setCookieAcknowledgement(state, accepted) {
+			state.cookiePolicyAccepted = accepted
+		},
 	},
 	getters: {
 		getPrivacyAcknowledgement(state) {
 			return state.privacyPolicyAccepted
+		},
+		getCookieAcknowledgement(state) {
+			return state.cookiePolicyAccepted
 		},
 	},
 })
