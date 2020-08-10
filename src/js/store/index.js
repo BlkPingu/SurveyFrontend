@@ -44,6 +44,12 @@ const store = new Vuex.Store({
 			state.cookiePolicyAccepted = accepted
 		},
 	},
+	actions: {
+ 		completeSurvey (context) {
+ 			context.commit('setSessionID', '')
+ 			context.dispatch('resetQuestions')
+ 		}
+ 	},
 	getters: {
 		getPrivacyAcknowledgement(state) {
 			return state.privacyPolicyAccepted
