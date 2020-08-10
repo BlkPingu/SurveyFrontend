@@ -1,7 +1,7 @@
 <template>
 	<div>
 		<div class="recorder">
-			<audio id="player" :src="currentURL" controls></audio>
+			<audio id="player" :src="currentURL" v-if="currentURL" controls></audio>
 			<button
 				class="record-button"
 				@click="switchRecordingState"
