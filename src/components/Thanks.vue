@@ -1,10 +1,10 @@
 <template>
     <div>
         <h2>
-            Yay you're done.
+            Yay, das war's!
         </h2>
         <p>
-            When the robots take over, at least they can understand you.
+            Wenn die Roboter übernehmen werden Sie zumindest dich verstehen.
         </p>
     </div>
 </template>

@@ -1,4 +1,6 @@
 module.exports = `
-This app helps us to test and validate voice recognition applications.
-[more text]
+<p>Diese Umfrage hilft Spracherkennungssysteme zu testen und weiterzuentwickeln.
+Durchgeführt wird sie im Rahmen meiner Bachelorarbeit, bei der untersucht wird, wie man die Erkennungsrate von Spracherkennungssystemen verbessern kann.</p>
+
+<p>Vielen Dank dass Sie sich die Zeit nehmen und ihre Stimme zur Verfügung stellen.</p>
 `

@@ -1,6 +1,6 @@
 <template>
 	<div class="intro">
-		<h1>Welcome and thank you</h1>
+		<h1>Hallo und Danke!</h1>
 		<p>{{ instructions }}</p>
 		<router-link to='/cookie'>
 			<button>
