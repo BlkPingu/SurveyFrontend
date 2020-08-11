@@ -15,5 +15,5 @@ module.exports = `
   <li>Sprachbefehle Form von Stimm Stichprobem gesprochener Wörter oder Sätze</li>
 </ul>
 
-<p>Ich stimme zu, dass die so erhobenen Daten werden unter [Lizenz] zur Verfügung gestellt werden.</p>
+<p>Ich stimme zu, dass die so erhobenen Daten unter [Lizenz] Dritten [für nicht kommerzielle Zwecke zur] Verfügung gestellt werden.</p>
 `
