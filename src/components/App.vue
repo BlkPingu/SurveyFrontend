@@ -7,13 +7,16 @@
 				</router-link>
 				<h2 v-if="subtitle">{{ subtitle }}</h2>
 			</div>
+			<div v-if="sessionID">
+				<p class="SessionID">Session ID: <span>{{ sessionID }}</span></p>
+			</div>
 		</header>
 		<article class="wrapper article-content">
 			<router-view></router-view>
 		</article>
 		<footer class="footer">
-			<router-link to="/privacy-notice">Privacy Notice</router-link>
-			<router-link to="/imprint">Imprint</router-link>
+			<router-link to="/privacy-notice">Datenschutz</router-link>
+			<router-link to="/imprint">Impressum</router-link>
 		</footer>
 	</div>
 </template>
@@ -30,6 +33,11 @@ export default {
 			subtitle,
 		}
 	},
+	computed: {
+        sessionID(){
+        	return this.$store.getters.getSessionID
+        }
+	}
 }
 </script>
 
@@ -147,6 +155,15 @@ footer {
 		margin: 0 20px;
 		color: $background-color;
 		text-decoration: none;
+	}
+}
+
+.SessionID{
+	font-size: .8rem;
+	opacity: .5;
+
+	span {
+		font-style: italic;
 	}
 }
 

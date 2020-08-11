@@ -5,7 +5,7 @@
 		</h3>
 		<div class="task">
 			<p>
-				Bitte folgenden Text sprechen: {{ this.questions[index-1].text }}
+				Bitte folgenden Text sprechen: "{{ this.questions[index-1].text }}"
 			</p>
 			<Recorder :id="id" :index="index - 1" ref="audiorecorder" />
 		</div>
