@@ -10,8 +10,8 @@
 */
 
 const genders = ['weiblich','männlich', 'divers']
-const ageRanges = ['18-21', '22-27', '28-33']
-const languages = ['Foo', 'Bar', 'Bazz']
+const ageRanges = ['18-21', '22-25', '26-29', '30-33']
+const languages = ['Englisch', 'Deutsch', 'Französisch']
 
 module.exports = [
 	{

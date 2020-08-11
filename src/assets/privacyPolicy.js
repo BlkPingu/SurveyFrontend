@@ -1,9 +1,17 @@
 module.exports = `
-<h3>Foo</h3>
 
-<h4>Bar</h4>
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia nostrum consequuntur earum nobis consectetur laboriosam. Non quo autem repellendus repudiandae soluta consectetur sint maxime dignissimos alias! Officia, distinctio. Voluptatibus exercitationem quas expedita?
+<p>Ich stimmte zu, volljährig zu sein.</p>
 
-<h4>Baz</h4>
-Eum ullam deserunt accusantium voluptatum illum ad doloribus beatae aliquam soluta molestias? Deserunt eveniet, nesciunt natus dolorem nihil sed itaque quis. Incidunt, officiis debitis dolore perferendis esse, voluptas molestias odit suscipit repellendus quia amet mollitia nobis quod, harum praesentium asperiores earum cum iste eveniet eum. Est excepturi quod eius atque autem deleniti quisquam saepe vero nostrum ipsum. Perspiciatis mollitia iure, obcaecati tenetur ipsa repudiandae dolore aspernatur veniam ab!
+<p>Ich stimme der verarbeitung meiner Daten im Rahmen der Datenschutzerklärung in einklang mit der DSGVO zu.
+
+<p>Ich stimme der <a href="https://tobiaskolb.dev/#/privacy">Datenschutzerklärung</a> zu.</p>
+
+<p>Es werden folgende Daten erhoben:</p>
+
+<ul>
+  <li>Geschlecht (m / w/ d)</li>
+  <li>Altersspanne (von-bis)</li>
+  <li>Muttersprache</li>
+  <li>Sprachbefehle Form von Stimm Stichprobem gesprochener Wörter oder Sätze</li>
+</ul>
 `
