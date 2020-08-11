@@ -1,7 +1,7 @@
 <template>
 	<div class="intro">
 		<h1>Hallo und Danke!</h1>
-		<p>{{ instructions }}</p>
+		<div v-html="instructions"/>
 		<router-link to='/cookie'>
 			<button>
 				{{ nextPageText }}
