@@ -1,8 +1,10 @@
 module.exports = `
-<p>When you proceed to the next screen you'll be asked to provide us with the permission to access your microphone. Of course this will be necessary for this survey to create recordings, so please pay attention to the according pop-ups. If you run into issues please make sure that your browser overall has access to your audio device. Thank you.</p>
+<p>
+    Im nächsten Schritt werden Sie gebeten, Ihr Mikrofon freizugeben. Dies ist notwendig um Aufnahmen machen zu können. Stellen Sie deshalb bitte sicher, dass sie ein Mikrofon angeschlossen oder integriert haben und lassen Sie die Freigabe zu.
+</p>
 
 <p>
-    <strong>It is not possible to complete this survey without microphone access</strong>
+    <strong>Es ist nicht möglich diese Umfrage ohne Mikrofonzugang abzuschließen.</strong>
 </p>
 
 `

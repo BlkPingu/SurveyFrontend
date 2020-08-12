@@ -1,11 +1,14 @@
 <template>
 	<div :class="'question question-' + index">
 		<h3>
-			This is Question {{ index }} of {{ questions.length }}
+			Frage {{ index }} von {{ questions.length }}
 		</h3>
 		<div class="task">
 			<p>
-				Bitte folgenden Text sprechen: "{{ this.questions[index-1].text }}"
+				Bitte folgenden Text sprechen:
+			</p>
+			<p>
+				<strong>"{{ this.questions[index-1].text }}"</strong>
 			</p>
 			<Recorder :id="id" :index="index - 1" ref="audiorecorder" />
 		</div>

@@ -1,6 +1,6 @@
 <template>
 	<div class="microphone-hint">
-		<h2>Permissions</h2>
+		<h2>Freigaben</h2>
 		<div v-html="microphoneHint" class="hint-text"/>
 		<router-link to="/question/1">
 			<button>

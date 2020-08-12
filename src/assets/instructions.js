@@ -5,6 +5,6 @@ module.exports = `
 </p>
 
 <p>
-    Vielen Dank dass Sie sich die Zeit nehmen und ihre Stimme zur Verfügung stellen.
+    Vielen Dank, dass Sie sich die Zeit nehmen und Ihre Stimme zur Verfügung stellen.
 </p>
 `
