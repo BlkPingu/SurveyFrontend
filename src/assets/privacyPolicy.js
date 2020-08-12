@@ -11,10 +11,10 @@ module.exports = `
 <ul>
   <li>SessionID zur Identifikation ihres Datensatzes</li>
   <li>Datum und Uhrzeit der Teilnahme</li>
-  <li>Geschlecht (m / w/ d)</li>
-  <li>Altersspanne (von-bis)</li>
+  <li>Geschlecht (m / w / d)</li>
+  <li>Altersspanne (von - bis)</li>
   <li>Muttersprache</li>
-  <li>Sprachbefehle in Form von Stimm-Stichproben gesprochener Wörter oder Sätze</li>
+  <li>Sprachbefehle in Form von Stimmstichproben gesprochener Wörter oder Sätze</li>
 </ul>
 
 <p>Ich stimme zu, dass die so erhobenen Daten unter [Lizenz] Dritten [für nicht kommerzielle Zwecke zur] Verfügung gestellt werden.</p>
