@@ -21,7 +21,7 @@ module.exports = [
 		options: genders,
 		required: true,
 		errorMessage: 'Bitte ein Geschlecht auswählen',
-		description: 'Totally intutive reason why I need this',
+		description: '',
 		validator: (value) => {return genders.includes(value)}
 	},
 	{
@@ -31,17 +31,17 @@ module.exports = [
 		options: ageRanges,
 		required: true,
 		errorMessage: 'Bitte eine Altersspanne auswählen',
-		description: 'Totally intutive reason why I need this',
+		description: '',
 		validator: (value) => {return ageRanges.includes(value)}
 	},
 	{
 		id: 'nativeLanguage',
-		name: 'Native Language',
+		name: 'Muttersprache',
 		type: 'select',
 		required: true,
 		options: languages,
 		errorMessage: 'Bitte eine Muttersprache auswählen.',
-		description: 'Totally intutive reason why I need this',
+		description: '',
 		validator: (value) => {return languages.includes(value)}
 	},
 ]

@@ -1,5 +1,6 @@
 <template>
 	<div class="meta-collection">
+		<p class="meta-input">Diese Daten helfen dabei, die Stimmerkennung verschiedener Altersgruppen zu unterscheiden.</p>
 		<form class="task" @submit.prevent="metaSubmit">
 			<!-- Generate metadata inputs from the given metadata config -->
 			<div v-for="meta of metaData" :key="meta.id" class="meta-input">
@@ -50,7 +51,7 @@
 
 				<span class="error">{{ meta.error }}</span>
 			</div>
-			<p class="footnote">Fields annotated with a * are non-optional.</p>
+			<p class="footnote">Felder die mit * gekennzeichnet sind, sind nicht optional.</p>
 			<input type="submit" content="Submit form" hidden />
 		</form>
 		<button @click="metaSubmit" type="submit">
