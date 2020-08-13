@@ -55,7 +55,7 @@
 			<input type="submit" content="Submit form" hidden />
 		</form>
 		<button @click="metaSubmit" type="submit">
-			Submit
+			Weiter
 		</button>
 	</div>
 </template>

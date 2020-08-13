@@ -1,0 +1,27 @@
+[
+	{
+		"id": "don_t_go_left",
+		"text": "don't go left",
+		"required": true
+	},
+	{
+		"id": "drive_left",
+		"text": "drive left",
+		"required": true
+	},
+	{
+		"id": "leftmost",
+		"text": "leftmost",
+		"required": true
+	},
+	{
+		"id": "clefting",
+		"text": "clefting",
+		"required": true
+	},
+	{
+		"id": "do_a_barrel_roll",
+		"text": "do a barrel roll",
+		"required": true
+	}
+]
