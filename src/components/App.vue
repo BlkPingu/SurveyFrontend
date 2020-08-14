@@ -126,7 +126,10 @@ input[type="submit"] {
 	border: none;
 
 	&:not(:disabled):hover {
-		box-shadow: inset 0 3px 0 $primary-dark;
+		box-shadow: inset 0 4px 0 $primary-dark;
+		//filter: brightness(85%);
+		background: $primary-dark;
+		cursor: pointer;
 	}
 
 	&:active {
