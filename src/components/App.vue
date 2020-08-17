@@ -8,7 +8,8 @@
 				<h2 v-if="subtitle">{{ subtitle }}</h2>
 			</div>
 			<div v-if="sessionID">
-				<p class="SessionID">Session ID: <span>{{ sessionID }}</span></p>
+				<p class="SessionID">SessionID: <strong>{{ sessionID }}</strong></p>
+				<p class="SessionID">Speichern Sie sich diese Nummer zur Identifikation Ihres Datensatzes für Anfragen im Rahmen Ihrer Rechte nach der DSGVO. Ohne Ihre SessionID ist eine Identifikation Ihres Datensatzes nicht mehr möglich.</p>
 			</div>
 		</header>
 		<article class="wrapper article-content">

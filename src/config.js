@@ -14,7 +14,7 @@ module.exports = {
 	privacyPolicy: require('./assets/privacyPolicy'),
 	cookiePolicy: require('./assets/cookiePolicy'),
 	microphoneHint: require('./assets/microphoneHint'),
-	privacyAcknowledgement: 'Ich verstehe den Datenschutzhinweis und stimme Ihm zu.',
+	privacyAcknowledgement: 'Datenschutzhinweis bestätigen.',
 	cookieAcknowledgement: 'Ich verstehe den Cookie-Hinweis und stimme Ihm zu.',
 	metaData: require('./assets/metaData'),
 	maxTakeLength: 6000,

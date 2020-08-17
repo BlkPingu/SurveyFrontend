@@ -1,6 +1,6 @@
 <template>
 	<div class="intro">
-		<h1>Einverständniserklärung</h1>
+		<h1>Datenschutzhinweis</h1>
 		<div v-html="privacyPolicy" class="privacy-policy" />
 		<div class="accept">
 			<input type="checkbox" id="privacy-accept" v-model="checked" />

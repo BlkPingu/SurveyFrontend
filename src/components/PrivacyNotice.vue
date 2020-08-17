@@ -5,7 +5,7 @@
          Datenschutzerklärung
       </h2>
 
-      <p>Stand: 13. August 2020</p>
+      <p>Stand: 17. August 2020</p>
 
       <h3>Inhaltsübersicht</h3>
 
@@ -51,7 +51,9 @@
       <h3 id="m3">3. Allgemeine Informationen zur Datenverarbeitung</h3>
 
       <h4>3.1 Umfang der Verarbeitung personenbezogener Daten</h4>
-      <p>Grundsätzlich verarbeiten wir Ihre personenbezogenen Daten nur, soweit dies zur Bereitstellung der Webseite erforderlich ist. Die Erhebung und Verwendung Ihrer personenbezogenen Daten erfolgt regelmäßig nur nach einer Einwilligung oder wenn die Verarbeitung der Daten durch gesetzliche Vorschriften gestattet ist.</p>
+      <p>Grundsätzlich verarbeiten wir Ihre personenbezogenen Daten nur, soweit dies zur Bereitstellung der Webseite erforderlich ist. Darüber hinaus werden während der Umfrage  erhobene, personenbezogene Daten, nur im Rahmen der Studientätigkeit (Bachelorstudium, Masterstudium, Promotion) von Tobias Kolb (vgl. Abs.1) und zum Zweck der Erbringung von Studienleistungen verarbeitet.</p>
+      <p>Nach der Erhebung werden Ihre Daten 10 Jahre zur Validierung der o.g. Leistungen vorgehalten, gespeichert und gegebenenfalls verarbeitet.</p>
+      <p>Die Erhebung und Verarbeitung Ihrer personenbezogenen Daten erfolgt regelmäßig nur nach einer Einwilligung oder wenn die Verarbeitung der Daten durch gesetzliche Vorschriften gestattet ist. </p>
       <h4>3.2 Rechtsgrundlagen der Verarbeitung personenbezogener Daten</h4>
       <p>Im Datenschutz gilt das sogenannte Verbot mit Erlaubnisvorbehalt. Demnach ist eine Verarbeitung personenbezogener Daten grundsätzlich rechtswidrig, es sei denn, es liegt eine Einwilligung des Betroffenen vor oder sie wird durch einen gesetzlich geregelten Erlaubnisgrund legitimiert. Wir sind verpflichtet, Sie über die Rechtsgrundlagen der Datenverarbeitung zu informieren.</p>
       <p>Wenn wir für die Verarbeitung personenbezogener Daten Ihre Einwilligung einholen, dient Art. 6 Abs. 1 lit. a DSGVO als Rechtsgrundlage.</p>
@@ -63,7 +65,7 @@
       <p>Grundsätzlich geben wir ohne Ihr ausdrückliches Einverständnis keine personenbezogenen Daten an Dritte weiter. Sofern wir im Rahmen der Verarbeitung Ihre Daten dennoch gegenüber Dritten offenbaren, sie an diese übermitteln oder ihnen sonst Zugriff auf die Daten gewähren, erfolgt auch dies ausschließlich auf Grundlage einer der genannten Rechtsgrundlagen. Wenn wir gesetzlich oder per Gerichtsbeschluss dazu verpflichtet sind, müssen wir Ihre Daten an auskunftsberechtigte Stellen übermitteln.</p>
       <p>Teilweise bedienen wir uns zur Verarbeitung Ihrer Daten sorgfältig ausgewählter externer Dienstleister. Sollten im Rahmen einer sogenannten Auftragsverarbeitung Daten an Dienstleister weitergegeben werden, so erfolgt dies auf Grundlage des Art. 28 DSGVO. Unsere Auftragsverarbeiter sind sorgfältig ausgewählt, sind an unsere Weisungen gebunden und werden regelmäßig von uns kontrolliert. Wir beauftragen nur solche Auftragsverarbeiter, die hinreichend Garantien dafür bieten, dass geeignete technische und organisatorische Maßnahmen so getroffen werden, dass die Verarbeitung im Einklang mit den Anforderungen von DSGVO und BDSG-neu erfolgt und den Schutz Ihrer Rechte gewährleistet.</p>
       <h4>3.4 Datenübermittlung in Drittstaaten</h4>
-      <p>Die DSGVO gewährleistet ein innerhalb der Europäischen Union gleich hohes Datenschutzniveau. Bei der Auswahl unserer Dienstleister und Kooperationspartner setzen wir daher nach Möglichkeit auf europäische Partner, wenn Ihre personenbezogenen Daten verarbeitet werden sollen. Nur in Ausnahmefällen werden wir Daten außerhalb der Europäischen Union oder des Europäischen Wirtschaftsraums im Rahmen der Inanspruchnahme von Diensten Dritter verarbeiten lassen.</p>
+      <p>Wir übermitteln keine personenbezogenen daten an Drittstaaten.</p>
       <p>Wir lassen eine Verarbeitung Ihrer Daten in einem Drittland nur zu, wenn die besonderen Voraussetzungen der Art. 44 ff. DSGVO erfüllt sind. Das bedeutet, dass die Verarbeitung Ihrer Daten dann nur auf Grundlage besonderer Garantien erfolgen darf, wie etwa die von der EU-Kommission offiziell anerkannte Feststellung eines der EU entsprechenden Datenschutzniveaus oder die Beachtung offiziell anerkannter spezieller vertraglicher Verpflichtungen, der sogenannten „Standardvertragsklauseln“.</p>
       <h4>3.5 Löschung von Daten und Speicherdauer</h4>
       <p>Sobald der Zweck für die Speicherung entfällt, werden wir Ihre personenbezogenen Daten löschen oder sperren. Darüber hinaus kann eine Speicherung jedoch erfolgen, wenn dies durch den europäischen oder nationalen Gesetzgeber in EU-Verordnungen, Gesetzen oder sonstigen Vorschriften, denen wir unterliegen, vorgesehen wurde. Eine Sperrung oder Löschung Ihrer Daten erfolgt dann, wenn eine durch diese Vorschriften vorgeschriebene Speicherfrist abläuft.</p>
@@ -176,7 +178,7 @@
 
       <h4>5.3 Teilnahme an der Umfrage</h4>
 
-      <p>Neben den Daten die gemäß 6.1. ff erhoben werden, werden weiterhin Daten bei der Teilnahme an der Umfrage erhoben. </p>
+      <p>Neben den Daten die gemäß 5.1. ff erhoben werden, werden weiterhin Daten bei der Teilnahme an der Umfrage erhoben. </p>
 
       <p>Diese Daten umfassen:</p>
       <ul class="m-elements">
@@ -189,6 +191,8 @@
       </ul>
 
       <p>Zweck der Erhebung sind Kontextanalysen der Sprachdateien. Ein Beispiel hierfür wäre, herauszufinden, ob Spracherkennungsmodelle gesprochene Befehle von bestimmten Altersgruppen schlechter in diskrete Befehle umsetzen können.</p>
+      <p>In der Umfrage erhobene, personenbezogene Daten, werden nur im Rahmen der Studientätigkeit (Bachelorstudium, Masterstudium, Promotion) von Tobias Kolb (vgl. Abs.1) und zum Zweck der Erbringung von Studienleistungen erhoben.</p>
+      <p>Nach der Erhebung werden die Daten 10 Jahre zur Validierung der o.g. Leistungen vorgehalten, gespeichert und gegebenenfalls verarbeitet.</p>
       <p>Betroffene Personen sind Teilnehmer an der Umfrage.</p>
       <h4>5.4 Verwendung von Cookies</h4>
       <p>Neben den zuvor genannten Daten werden bei der Nutzung unserer Websites Cookies während oder auch nach Ihrem Besuch unserer Onlineangebote auf Ihrem Endgerät gespeichert. Hierbei handelt es sich um kleine Text-Pakete, die von einer Website an den Browser geschickt werden können und von diesem gespeichert und wieder zurückgeschickt werden. In Cookies können unterschiedliche Angaben gespeichert werden, die von der Stelle, die den Cookie setzt, ausgelesen werden. Die in Cookies erhobenen Daten der Nutzer werden durch technische Vorkehrungen pseudonymisiert, wodurch eine Zuordnung der Daten zum aufrufenden Nutzer in der Regel nicht mehr möglich ist. </p>
