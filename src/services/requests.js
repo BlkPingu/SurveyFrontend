@@ -1,5 +1,6 @@
 import { apiURL } from '@/config.js'
-import { getToken } from '@/js/tokenHandler'
+import Store from '@/js/store/index'
+
 
 export default {
 	// sends a request with the given data and method to the API
@@ -8,7 +9,7 @@ export default {
 		let headers = {
 			'Content-Type': 'application/json',
 		}
-		if (getToken() != null) headers['Authorization'] = 'Bearer ' + getToken()
+		if (Store.getters.getToken != null) headers['Authorization'] = 'Bearer ' + Store.getters.getToken
 		try {
 			const res = await fetch(`${apiURL}/${endpoint}`, {
 				method,
@@ -31,7 +32,7 @@ export default {
 			formData.append(key, data[key])
 		}
 		let headers = {}
-		if (getToken() != null) headers['Authorization'] = 'Bearer ' + getToken()
+		if (Store.getters.getToken != null) headers['Authorization'] = 'Bearer ' + Store.getters.getToken
 		try {
 
 			const request = {

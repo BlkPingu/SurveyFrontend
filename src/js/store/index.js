@@ -3,6 +3,7 @@ import Vuex from 'vuex'
 import createPersistedState from 'vuex-persistedstate'
 import QuestionsModule from './questionsModule'
 import MetaDataModule from './metaDataModule'
+import TokenModule from './tokenModule'
 import Router from '@/js/router'
 
 Vue.use(Vuex)
@@ -11,8 +12,9 @@ const store = new Vuex.Store({
 	modules: {
 		QuestionsModule,
 		MetaDataModule,
+		TokenModule,
 	},
-	plugins: [
+/*	plugins: [
 		createPersistedState({
 			rehydrated(store) {
 				// Reset Blobs and URls set before if session has to be restored
@@ -31,7 +33,7 @@ const store = new Vuex.Store({
 				}
 			},
 		}),
-	],
+	],*/
 	state: {
 		privacyPolicyAccepted: false,
 		cookiePolicyAccepted: false,
@@ -47,6 +49,7 @@ const store = new Vuex.Store({
 	actions: {
  		completeSurvey (context) {
  			context.commit('setSessionID', '')
+ 			context.commit('setToken', '')
  			context.dispatch('resetQuestions')
  		}
  	},

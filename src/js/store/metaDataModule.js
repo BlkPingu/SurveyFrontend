@@ -1,7 +1,7 @@
 import metaData from '@/assets/metaData'
 import MetaDataService from '@/services/metaDataService'
 import Router from '@/js/router.js'
-import { setToken } from '@/js/tokenHandler'
+//import { setToken } from '@/js/tokenHandler'
 
 let meta = Object.keys(metaData).reduce((obj, key) => {
 	obj[metaData[key].id] = null
@@ -41,7 +41,7 @@ export default {
 				// Uploading Meta to server to receive token
 				let res = await MetaDataService.putMeta(data)
 				if (res.token) {
-					setToken(res.token)
+					commit('setToken', res.token)
 					return
 				} else if (res.status > 299) {
 					throw new Error(

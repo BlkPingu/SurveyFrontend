@@ -11,8 +11,6 @@ import Hint from '@/components/MicrophoneHint'
 import Metadata from '@/components/Metadata'
 import FourOhFour from '@/components/404'
 import Store from '@/js/store/index'
-import { getToken } from '@/js/tokenHandler'
-
 
 Vue.use(VueRouter)
 const router = new VueRouter({
@@ -38,9 +36,9 @@ const router = new VueRouter({
 // Add navigation guards to protect routes that should only be accessible with
 // a token and / or accepted privacy policy
 router.beforeEach((to, from, next) => {
-	const publicRoutes = ['/', '/404', '/cookie', '/imprint', '/privacy-notice']
-	const privacyRoutes = ['/', '/404', '/cookie', '/privacy']
-	const cookieRoutes = ['/', '/404', '/cookie']
+	const publicRoutes = ['/', '/404', '/cookie', '/imprint', '/privacy-notice', '/thanks']
+	const privacyRoutes = ['/', '/404', '/cookie', '/privacy','/imprint', '/privacy-notice']
+	const cookieRoutes = ['/', '/404', '/cookie', '/imprint', '/privacy-notice']
 	const privacyAcknowledgementRequired = !privacyRoutes.includes(to.path)
 	const cookieAcknowledgementRequired = !cookieRoutes.includes(to.path)
 	const authRequired = !publicRoutes.includes(to.path)
@@ -50,7 +48,7 @@ router.beforeEach((to, from, next) => {
 	}
 	else if (privacyAcknowledgementRequired && !Store.getters.getPrivacyAcknowledgement) {
 		return next('/privacy')
-	} else if (authRequired && getToken == null) {
+	} else if (authRequired && Store.getters.getToken == null) {
 		return next('/')
 	} else {
 		next()
