@@ -1,5 +1,5 @@
 <template>
-   <div>
+   <div class="legal">
 
       <h2>
          Datenschutzerklärung

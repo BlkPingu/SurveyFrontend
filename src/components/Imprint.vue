@@ -1,6 +1,7 @@
 <template>
-    <div>
-        <div class='impressum'><h2>Impressum</h2><p>Angaben gemäß § 5 TMG</p>
+    <div class="legal">
+        <h2>Impressum</h2>
+        <p>Angaben gemäß § 5 TMG</p>
         <p>
             Tobias Kolb
             <br>
@@ -40,8 +41,8 @@
             Der Nutzung von im Rahmen der Impressumspflicht veröffentlichten Kontaktdaten durch Dritte zur Übersendung von nicht ausdrücklich angeforderter Werbung und Informationsmaterialien wird hiermit ausdrücklich widersprochen. Die Betreiber der Seiten behalten sich ausdrücklich rechtliche Schritte im Falle der unverlangten Zusendung von Werbeinformationen, etwa durch Spam-Mails, vor.
         </p>
         <br>
+        <p>
             Website Impressum von <a href="https://www.impressum-generator.de">impressum-generator.de</a>
-        </div>
-
+        </p>
     </div>
 </template>
