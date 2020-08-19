@@ -36,9 +36,9 @@ const router = new VueRouter({
 // Add navigation guards to protect routes that should only be accessible with
 // a token and / or accepted privacy policy
 router.beforeEach((to, from, next) => {
-	const publicRoutes = ['/', '/404', '/cookie', '/imprint', '/privacy-notice', '/thanks']
+	const publicRoutes = ['/', '/404', '/cookie', '/privacy', '/metadata', '/imprint', '/privacy-notice', '/thanks']
 	const privacyRoutes = ['/', '/404', '/cookie', '/privacy','/imprint', '/privacy-notice']
-	const cookieRoutes = ['/', '/404', '/cookie', '/imprint', '/privacy-notice']
+	const cookieRoutes = ['/', '/404', '/cookie','/imprint', '/privacy-notice']
 	const privacyAcknowledgementRequired = !privacyRoutes.includes(to.path)
 	const cookieAcknowledgementRequired = !cookieRoutes.includes(to.path)
 	const authRequired = !publicRoutes.includes(to.path)

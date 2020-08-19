@@ -1,7 +1,6 @@
 import metaData from '@/assets/metaData'
 import MetaDataService from '@/services/metaDataService'
 import Router from '@/js/router.js'
-//import { setToken } from '@/js/tokenHandler'
 
 let meta = Object.keys(metaData).reduce((obj, key) => {
 	obj[metaData[key].id] = null

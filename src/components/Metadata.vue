@@ -79,7 +79,7 @@ export default {
 		}
 	},
 	methods: {
-		metaSubmit() {
+		async metaSubmit() {
 			let errors = false
 
 			// Validate meta field with its validator function and add error if given
@@ -101,7 +101,7 @@ export default {
 					finalMeta[meta.id] = this.viewModelValues[meta.id]
 				}
 				try {
-					this.$store.dispatch('writeMetaData', finalMeta)
+					await this.$store.dispatch('writeMetaData', finalMeta)
 					this.$router.push('/microphone')
 				} catch (error) {
 					alert(error.msg)
