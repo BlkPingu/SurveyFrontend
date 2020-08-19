@@ -51,6 +51,7 @@ const store = new Vuex.Store({
  			context.commit('setSessionID', '')
  			context.commit('setToken', '')
  			context.dispatch('resetQuestions')
+ 			context.dispatch('resetMetadata')
  		}
  	},
 	getters: {

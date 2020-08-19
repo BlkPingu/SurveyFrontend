@@ -61,6 +61,9 @@ export default {
 		setSessionID(state, idString) {
 			state.sessionID = idString
 		},
+		resetMetadata(state) {
+		Object.keys(state.metaData).map(v => state.metaData[v] = null)
+		}
 	},
 	getters: {
 		getMeta(state) {
